@@ -16,17 +16,17 @@
     
     <div class="todo-container">
         <div class="todo-header">
-            <input class="todo-newtodo-input" placeholder="What needs to be done?">
-            <button class="todo-checkall-button"></button>
+            <input  aria-label="Add new todo" class="todo-newtodo-input" placeholder="What needs to be done?">
+            <button aria-label="Check all as completed" class="todo-checkall-button"></button>
         </div>
         
         <div class="todo-list">
             <div class="todo-list-item">
-                <textarea class="todo-list-item-text">
+                <textarea class="todo-list-item-text" aria-label="Todo item area">
                     HTML
                 </textarea>
-                <input type="checkbox" class="todo-list-item-button">
-                <button class="todo-list-item-delete">Delete</button>
+                <input type="checkbox" aria-label="Check as completed" class="todo-list-item-button">
+                <button aria-label="Delete todo item" class="todo-list-item-delete">Delete</button>
             </div>
         </div>
     
