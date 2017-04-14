@@ -6,71 +6,71 @@
     
 }
 
-.todo-list-item-button {
-    float: left;
-    overflow: auto;
-    display: inline-block;
-}
+    .todo-list-item-button {
+        float: left;
+        overflow: auto;
+        display: inline-block;
+    }
 
-.todo-list-item.__ready .todo-list-item-text > textarea{
-    text-decoration: line-through;    
-}
+        .todo-list-item-button > input{
+            margin: 10px;
+            width: 35px;
+            height: 35px;
+            margin: 10px;
+            appearance: none;
+            -webkit-appearance: none;
+            border: 1px solid gray;
+            border-radius: 100px;
 
-.todo-list-item-button > input{
-    margin: 10px;
-    width: 35px;
-    height: 35px;
-    margin: 10px;
-    appearance: none;
-    -webkit-appearance: none;
-    border: 1px solid gray;
-    border-radius: 100px;
+        }
 
-}
+        .todo-list-item-button > input:checked {
+            background: url(../../../../components/icons/completed.png) no-repeat;
+            background-position: center;
+            appearance: none;
+            -webkit-appearance: none;
+            width: 35px;
+            height: 35px;
+            border: 1px solid green;
+            border-radius: 100px;
 
-.todo-list-item-button > input:checked {
-    background: url(../../../../components/icons/completed.png) no-repeat;
-    background-position: center;
-    appearance: none;
-    -webkit-appearance: none;
-    width: 35px;
-    height: 35px;
-    border: 1px solid green;
-    border-radius: 100px;
+        }
 
-}
+    .todo-list-item-delete {
 
-.todo-list-item-delete {
+        float: right;
+        overflow: auto;  
+        display: inline-block;
+    }
 
-    float: right;
-    overflow: auto;  
-    display: inline-block;
-}
+        .todo-list-item-delete > button {
+            background: url(../../../../components/icons/close.png) no-repeat;
+            background-position: center;
+            margin: 10px;
+            width: 18px;
+            height: 18px;
+            border: none;
 
-.todo-list-item-delete > button {
-    background: url(../../../../components/icons/close.png) no-repeat;
-    background-position: center;
-    margin: 10px;
-    width: 18px;
-	height: 18px;
-    border: none;
+        }
 
-}
+    .todo-list-item-text {
+        overflow: auto;
+        display: block;
+    }
 
-.todo-list-item-text {
-    overflow: auto;
-    display: block;
-}
+        .todo-list-item-text > textarea {
+            outline: none;
+            resize: none;
+            border: none;
+            overflow: hidden;
+            width: 99%; 
 
-.todo-list-item-text > textarea {
-    outline: none;
-    resize: none;
-    border: none;
-    overflow: hidden;
-    width: 99%; 
 
-    
-    font-family: 'Helvetica Neue Light', Helvetica, Arial, sans-serif;
-    font-size: 24pt;
-}
+            font-family: 'Helvetica Neue Light', Helvetica, Arial, sans-serif;
+            font-size: 24pt;
+        }
+
+        .todo-list-item.__ready .todo-list-item-text > textarea{
+            text-decoration: line-through;    
+        }
 
