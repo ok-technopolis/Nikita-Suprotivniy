@@ -1,0 +1,9 @@
+.header > h1 {
+    
+    text-transform: uppercase;    
+    margin: 0 auto;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 45pt;
+	text-align: center;
+	color: #f0e5e5;
+}

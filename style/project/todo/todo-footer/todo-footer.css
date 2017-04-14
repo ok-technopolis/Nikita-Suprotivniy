@@ -1,0 +1,49 @@
+.todo-footer {
+    margin: 10px;
+    
+    text-align: center;
+    
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: #888888;
+	font-size: 10pt;
+
+    
+}
+
+.todos-left {
+    float: left;
+    display: inline-block; 
+    background: none;
+}
+
+.todo-groups {
+    overflow: hidden;
+    display: inline-block;
+}
+
+.todo-group {
+    border: none;
+    background: none;
+    
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: #888888;
+	font-size: 10pt;
+    
+}
+
+.todo-group.__active {
+    border: solid 1px #ebdfdf;
+}
+
+.todo-clearcompleted-button {
+    float: right;
+    display: inline-block;
+    
+    border: none;
+    background: none;
+    
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: #888888;
+	font-size: 10pt;
+    
+}
