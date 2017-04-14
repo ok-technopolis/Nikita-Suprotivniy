@@ -63,7 +63,8 @@
             resize: none;
             border: none;
             overflow: hidden;
-            width: 99%; 
+            padding: 0;
+            width: 100%; 
 
 
             font-family: 'Helvetica Neue Light', Helvetica, Arial, sans-serif;
