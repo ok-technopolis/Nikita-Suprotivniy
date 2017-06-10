@@ -1,0 +1,51 @@
+@import "../../../config/globals";
+
+.todo-footer {
+    margin: $offset_3x;
+    
+    text-align: center;
+    
+	font-family: $f-main;
+	color: $c-gray;
+	font-size: $lh_xx-small;
+
+    
+}
+
+    .todos-left {
+        float: left;
+        display: inline-block; 
+        background: none;
+    }
+
+    .todo-groups {
+        overflow: hidden;
+        display: inline-block;
+    }
+
+        .todo-group {
+            border: none;
+            background: none;
+
+            font-family: $f-main;
+            color: $c-gray;
+            font-size: $fs_little;
+
+        }
+
+        .todo-group.__active {
+            border: solid 1px #ebdfdf;
+        }
+
+    .todo-clearcompleted-button {
+        float: right;
+        display: inline-block;
+
+        border: none;
+        background: none;
+
+        font-family: $f-main;
+        color: $c-gray;
+        font-size: $fs_little;
+
+    }

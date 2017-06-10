@@ -1,0 +1,10 @@
+@import "../../config/globals";
+
+.header > h1 {
+       
+    margin: 0 auto;
+	font-family: $f-main;
+	font-size: $fs_xxx-large;
+	text-align: center;
+	color: $c-header;
+}
