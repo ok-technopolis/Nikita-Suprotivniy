@@ -1,8 +1,10 @@
+@import "../../config/globals";
+
 .header > h1 {
        
     margin: 0 auto;
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 45pt;
+	font-family: $f-main;
+	font-size: $fs_xxx-large;
 	text-align: center;
-	color: #f0e5e5;
+	color: $c-header;
 }

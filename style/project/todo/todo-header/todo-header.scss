@@ -1,3 +1,5 @@
+@import "../../../config/globals";
+
 .todo-header {
     border-bottom: 1px solid gray;
     height: 64px;
@@ -7,7 +9,7 @@
 
 .todo-checkall-button {
     float: left;   
-    margin: auto 10px;
+    margin: auto $offset_3x;
     height: 100%;
     width: 35px;
     text-align: center;
@@ -16,7 +18,7 @@
 
 
     .todo-checkall-button > button {
-        background: url(../../../../components/icons/select-all.png) no-repeat;
+        background: url(../components/icons/select-all.png) no-repeat;
         background-position: center;
         width: 24px;
         height: 100%;
@@ -31,7 +33,7 @@
 
     .todo-newtodo-input > input {
         font-style: italic;
-        font-size: 14pt;
+        font-size: $fs_large;
         border: none;
         width: 100%;
         padding: 0;

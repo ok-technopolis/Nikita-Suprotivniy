@@ -1,3 +1,5 @@
+@import "../../../config/globals";
+
 .todo-list-item {
     border-bottom: 1px solid gray;
     clear: both;
@@ -13,25 +15,25 @@
     }
 
         .todo-list-item-button > input{
-            margin: 10px;
+            margin: $offset_3x;
             width: 35px;
             height: 35px;
             margin: 10px;
             appearance: none;
             -webkit-appearance: none;
-            border: 1px solid gray;
+            border: 1px solid $c-gray;
             border-radius: 100px;
 
         }
 
         .todo-list-item-button > input:checked {
-            background: url(../../../../components/icons/completed.png) no-repeat;
+            background: url(../components/icons/completed.png) no-repeat;
             background-position: center;
             appearance: none;
             -webkit-appearance: none;
             width: 35px;
             height: 35px;
-            border: 1px solid green;
+            border: 1px solid $c-green;
             border-radius: 100px;
 
         }
@@ -44,9 +46,9 @@
     }
 
         .todo-list-item-delete > button {
-            background: url(../../../../components/icons/close.png) no-repeat;
+            background: url(../components/icons/close.png) no-repeat;
             background-position: center;
-            margin: 10px;
+            margin: $offset_3x;
             width: 18px;
             height: 18px;
             border: none;
@@ -68,7 +70,7 @@
 
 
             font-family: 'Helvetica Neue Light', Helvetica, Arial, sans-serif;
-            font-size: 24pt;
+            font-size: $fs_xx-large;
         }
 
         .todo-list-item.__ready .todo-list-item-text > textarea{
